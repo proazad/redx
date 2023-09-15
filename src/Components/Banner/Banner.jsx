@@ -27,7 +27,7 @@ const Banner = () => {
           </div>
 
           <div className="text-center">
-            <p>অথবা,</p>
+            <div className="divider">অথবা,</div>
           </div>
           <div className="text-center space-y-5">
             <h3 className="text-xl ">ট্রাক মুভমেন্ট স্ট্যাটাস</h3>
