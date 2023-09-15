@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Services from "../Services/Services";
+import ChooseRedx from "../ChooseRedx/ChooseRedx";
 const Main = () => {
     const [services, setSevices] = useState([]);
     useEffect(()=>{
@@ -10,6 +11,7 @@ const Main = () => {
     return (
         <main>
             <Services services={services}></Services>
+            <ChooseRedx></ChooseRedx>
         </main>
     );
 };

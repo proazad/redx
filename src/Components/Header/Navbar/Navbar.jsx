@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar container mx-auto">
       <div className="flex-1 flex gap-24">
         <a href="index.html" className="">
-          <img src={logo} alt="Redx" />
+          <img src={logo} alt="Redx" draggable="false" />
         </a>
         <div className="flex flex-row gap-5">
           <a href="#" className="text-xl">

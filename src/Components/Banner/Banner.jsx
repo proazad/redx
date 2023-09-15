@@ -6,7 +6,7 @@ const Banner = () => {
     <div>
       <div className="flex">
         <div className="w-8/12">
-          <img src={banner} alt="" className="w-full h-[90vh]" />
+          <img src={banner} alt="Banner Image" draggable={false} className="w-full h-[90vh]" />
         </div>
         <div className="w-4/12 p-10 space-y-10">
           <div className="space-y-5 text-center">

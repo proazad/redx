@@ -12,25 +12,25 @@ const Sponsor = () => {
           <h3 className="text-xl">Top Enterprises</h3>
         </div>
         <div>
-          <img src={clogo} alt="beta" className=" h-10" />
+          <img src={clogo} alt="beta" className=" h-10" draggable="false" />
         </div>
         <div>
-          <img src={rangs} alt="Rangs" className=" h-10" />
+          <img src={rangs} alt="Rangs" className=" h-10" draggable="false" />
         </div>
         <div>
-          <img src={lotto} alt="lotto" className=" h-10" />
+          <img src={lotto} alt="lotto" className=" h-10" draggable="false" />
         </div>
         <div>
           <h3 className="text-xl">TOP SMES</h3>
         </div>
         <div>
-          <img src={daraz} alt="daraz" className=" h-10" />
+          <img src={daraz} alt="daraz" className=" h-10" draggable="false" />
         </div>
         <div>
-          <img src={ajkerdel} alt="ajkerdeal" className="w-24 h-10" />
+          <img src={ajkerdel} alt="ajkerdeal" className="h-10" draggable="false" />
         </div>
         <div>
-          <img src={othoba} alt="Othoba" className=" h-10" />
+          <img src={othoba} alt="Othoba" className=" h-10" draggable="false" />
         </div>
       </div>
     </div>
