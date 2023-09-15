@@ -1,10 +1,12 @@
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
 function App() {
-
   return (
     <>
-      <h1 className="text-3xl font-semibold text-red-700">Redx</h1>
+      <Header></Header>
+      <Main></Main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
