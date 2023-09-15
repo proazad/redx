@@ -1,8 +1,15 @@
-import Banner from "../Banner/Banner";
+import { useEffect, useState } from "react";
+import Services from "../Services/Services";
 const Main = () => {
+    const [services, setSevices] = useState([]);
+    useEffect(()=>{
+        fetch('services.json')
+        .then(res=>res.json())
+        .then(data=>setSevices(data));
+    },[]);
     return (
         <main>
-            <Banner></Banner>
+            <Services services={services}></Services>
         </main>
     );
 };

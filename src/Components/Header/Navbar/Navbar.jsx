@@ -2,7 +2,7 @@ import { FaPhone } from "react-icons/fa";
 import logo from "../../../assets/logo.svg";
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar container mx-auto">
       <div className="flex-1 flex gap-24">
         <a href="index.html" className="">
           <img src={logo} alt="Redx" />

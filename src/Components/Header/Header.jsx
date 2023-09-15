@@ -1,12 +1,19 @@
+import Banner from "../Banner/Banner";
+import Sponsor from "../Sponsor/Sponsor";
 import Navbar from "./Navbar/Navbar";
 const Header = () => {
-    return (
-        <header className="shadow-lg">
-            <div className="container mx-auto">
-            <Navbar></Navbar>
-            </div>
-        </header>
-    );
+  return (
+    <header>
+      <div className="h-screen">
+        <div className="shadow-lg">
+          <Navbar></Navbar>
+        </div>
+        <Banner></Banner>
+      </div>
+
+      <Sponsor></Sponsor>
+    </header>
+  );
 };
 
 export default Header;
